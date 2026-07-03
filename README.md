@@ -12,4 +12,4 @@ Github Actions が落ちたときに
 >"fatal: could not read Password for 'https://***@github.com': No such device or address"
 > "subprocess.CalledProcessError: Command '['git', 'push', 'https://***@github.com/Memories-of-Sun-and-Moon/cp_templates.git', 'HEAD']' returned non-zero exit status 128.
 
-のようなエラーが見られたら、トークンの有効期限が切れいている可能性があります。
+のようなエラーが見られたら、トークンの有効期限が切れている可能性があります。
