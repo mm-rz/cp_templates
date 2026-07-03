@@ -1,6 +1,11 @@
 ---
 data:
   libraryCategories:
+  - name: .
+    pages:
+    - icon: ':warning:'
+      path: __template.cpp
+      title: __template.cpp
   - name: data_structure
     pages:
     - icon: ':heavy_check_mark:'

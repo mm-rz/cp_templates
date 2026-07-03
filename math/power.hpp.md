@@ -48,15 +48,15 @@ data:
   isVerificationFile: false
   path: math/power.hpp
   requiredBy:
+  - math/formal_power_series.hpp
   - math/geometric_series_sum.hpp
   - math/discrete_logarithm.hpp
-  - math/formal_power_series.hpp
   timestamp: '2025-07-01 03:22:56+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - verify/yosupo/discrete_logarithm.test.cpp
   - verify/yosupo/generalized_discrete_logarithm.test.cpp
   - verify/yosupo/convolution_mod.test.cpp
+  - verify/yosupo/discrete_logarithm.test.cpp
 documentation_of: math/power.hpp
 layout: document
 redirect_from:

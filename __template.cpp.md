@@ -18,28 +18,23 @@ data:
     \                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n \
     \ File \"/opt/hostedtoolcache/Python/3.12.0/x64/lib/python3.12/site-packages/onlinejudge_verify/languages/cplusplus_bundle.py\"\
     , line 260, in _resolve\n    raise BundleErrorAt(path, -1, \"no such header\"\
-    )\nonlinejudge_verify.languages.cplusplus_bundle.BundleErrorAt: bits/stdc++.h:\
+    )\nonlinejudge_verify.languages.cplusplus_bundle.BundleErrorAt: cp_templates/template/template.hpp:\
     \ line -1: no such header\n"
-  code: "#include \"bits/stdc++.h\"\nusing namespace std;\n\nusing ll = long long;\n\
-    \nll maximum_rect(vector<ll> a){\n\tint n = (int)a.size();\n\tvector<ll> l(n),\
-    \ r(n);\n\t{\n\t\tstack<ll> st;\n\t\tfor(int i = 0;i < n;i++){\n\t\t\twhile(not\
-    \ st.empty() && a[st.top()] >= a[i])st.pop();\n\t\t\tl[i] = (st.empty() ? 0 :\
-    \ st.top() + 1);\n\t\t\tst.push(i);\n\t\t}\n\t}\n\t{\n\t\tstack<ll> st;\n\t\t\
-    for(int i = n - 1;i >= 0;i--){\n\t\t\twhile(not st.empty() && a[st.top()] >= a[i])st.pop();\n\
-    \t\t\tr[i] = (st.empty() ? n : st.top());\n\t\t\tst.push(i);\n\t\t}\n\t}\n\tll\
-    \ ans = 0;\n\tfor(int i = 0;i < n;i++)ans = max(ans, a[i] * (r[i] - l[i]));\n\t\
-    return ans;\n}"
+  code: "#include \"./cp_templates/template/template.hpp\"\n#include \"./cp_templates/template/debug.hpp\"\
+    \n#define debug(...) debug_print::multi_print(#__VA_ARGS__, __VA_ARGS__)\n\nusing\
+    \ namespace mmrz;\n\nvoid SOLVE(){\n\n}\n\nvoid mmrz::solve(){\n        int t\
+    \ = 1;\n        //cin >> t;\n        while(t--)SOLVE();\n}\n\n"
   dependsOn: []
   isVerificationFile: false
-  path: z_other/maximum_rect.cpp
+  path: __template.cpp
   requiredBy: []
-  timestamp: '2024-07-04 21:12:28+09:00'
+  timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: z_other/maximum_rect.cpp
+documentation_of: __template.cpp
 layout: document
 redirect_from:
-- /library/z_other/maximum_rect.cpp
-- /library/z_other/maximum_rect.cpp.html
-title: z_other/maximum_rect.cpp
+- /library/__template.cpp
+- /library/__template.cpp.html
+title: __template.cpp
 ---

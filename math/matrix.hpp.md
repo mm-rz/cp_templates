@@ -79,8 +79,8 @@ data:
   timestamp: '2025-07-01 03:22:56+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - verify/yukicoder/3044.test.cpp
   - verify/aoj/itp1/7_d.test.cpp
+  - verify/yukicoder/3044.test.cpp
 documentation_of: math/matrix.hpp
 layout: document
 title: "\u884C\u5217\u30E9\u30A4\u30D6\u30E9\u30EA"
