@@ -20,3 +20,9 @@ Github Actions が落ちたときに
 
 - ``online-judge-verify-helper``
 
+# usage
+
+1. require 欄の導入事項を導入する
+2. ここの親ディレクトリに ``__template.cpp`` をコピーし実装する
+3. 提出時には(wsl 上の ubuntu であれば) ``B (file)`` コマンドでコピーができる
+
