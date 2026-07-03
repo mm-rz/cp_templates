@@ -13,3 +13,10 @@ Github Actions が落ちたときに
 > "subprocess.CalledProcessError: Command '['git', 'push', 'https://***@github.com/Memories-of-Sun-and-Moon/cp_templates.git', 'HEAD']' returned non-zero exit status 128.
 
 のようなエラーが見られたら、トークンの有効期限が切れている可能性があります。
+
+# requre
+
+## pip install
+
+- ``online-judge-verify-helper``
+
